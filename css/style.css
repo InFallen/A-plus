@@ -325,6 +325,16 @@ body {
     border-radius: 2px;
 }
 
+.contacts-form input[type="text"]:hover,
+.contacts-form textarea:hover {
+    border-color: #7f7f7f;
+}
+
+.contacts-form input[type="text"]:focus,
+.contacts-form textarea:focus {
+    border-color: #6451d5;
+}
+
 .contacts-form .message .title {
     padding-right: 4px;
 }
@@ -465,6 +475,16 @@ body {
     font-family: Tahoma, sans-serif;
     font-size: 18px;
     line-height: 24px;
+}
+
+.footer-menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-menu a:active {
+    color: #69667d;
+    text-decoration: none;
 }
 
 .footer-menu:last-child {
